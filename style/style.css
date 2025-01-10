@@ -154,3 +154,6 @@ header{
     border: none;
 }
 
+.vision-three{
+    display: flex;
+}
