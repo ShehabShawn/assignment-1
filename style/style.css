@@ -167,7 +167,9 @@ header{
 .header-right{
     width: ;
 }
-
+.future-vision{
+    margin-bottom: 32px;
+}
 .vision-three{
     display: flex;
     align-items: stretch;
@@ -356,4 +358,22 @@ header{
     border-radius: 0px 8px 8px 0px;
     height: 92px;
     
+}
+/* quote */
+.quote{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    padding: 24px 48px;
+    background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    
+}
+.quote-desc{
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+.quote-speaker{
+    font-size: 20px;
+    font-weight: 600;
 }
