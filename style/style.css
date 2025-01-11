@@ -288,7 +288,7 @@ header{
     
 }
 .donate-description{
-    width: 1500px;
+    max-width: 1600px;
 }
 .donate-money{
     background-color: rgba(255, 255, 255, 1);
@@ -298,8 +298,13 @@ header{
     font-size: 40px;
     font-weight: bold;
 }
+.hover-effect:hover{
+    background-color: blue; 
+    cursor: pointer;
+}
+
 .donate-money:hover {
-    background-color: #d9f0e3; 
+    background-color: #0b572c; 
     cursor: pointer;
 }
 .donate-other-amount{
@@ -322,4 +327,33 @@ header{
 }
 .donate-now-button{
     margin-bottom: 30px;
+}
+.sub-newsletter{
+    background-color: rgba(198, 228, 214, 1);
+    text-align: center;
+    padding: 80px 100px;
+    border-radius: 24px ;
+    margin-bottom: 30px;
+}
+.email-here{
+    height: 55px;
+    width: 600px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    margin-bottom: 32px;
+    padding: 18px 40px 18px 40px;
+}
+.email-subs{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between;
+    gap: 0px;
+    align-items:; */
+}
+.subscribe{
+    border-radius: 0px 8px 8px 0px;
+    height: 92px;
+    
 }
