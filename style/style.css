@@ -107,7 +107,11 @@
   }
   
   
-  
+body{
+    background-color: rgba(241, 241, 243, 1);
+    
+    align-items: center;
+}
 .full-width{
         /* max-width: 1280px; */
         align-items: center;
@@ -115,6 +119,7 @@
         margin-right: 160px;
   }
 header{
+    /* max-width: 1280px; */
     display: flex;
     background-color: #C6E4D6;
     justify-content: space-around;
@@ -122,19 +127,23 @@ header{
     border-radius: 24px;
     padding: 80px 100px 80px 100px ;
     gap: 64px;
+    /* margin: 20px 160px 80px 160px; */
 
     margin-bottom: 80px;
   }
 .header-left{
    
-   max-width: 622px;
-   max-height: 326px;
+   
+   margin-top: 20px;
+   margin-bottom: 80px;
+   margin-top: 60px;
+   margin-left: 30px ;
     
   }
 .header-left-small{
     font-size: 24px;
     font-weight: 500;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.5);
     margin-bottom: 16px;
   }
 .header-left-title{
@@ -156,4 +165,145 @@ header{
 
 .vision-three{
     display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+.vision-padding{
+    
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.first-vision{
+    background-color: rgba(84, 144, 245, 0.2);
+    
+}
+.second-vision{
+    background-color: rgba(198, 228, 214, 1);
+}
+.third-vision{
+    background-color: rgba(247, 235, 207, 1) ;
+}
+.vision-learn{
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    
+    border: none;
+}
+.first-vision >.vision-learn{
+    background-color: rgba(84, 144, 245, 1);
+    padding: 11px 20px;
+}
+.second-vision>.vision-learn{
+    background-color: rgba(9, 161, 92, 1);
+    padding: 11px 20px;
+}
+.third-vision>.vision-learn{
+    background-color: rgba(255, 194, 57, 1);
+    padding: 11px 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 80px;
+}
+.card-1{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 48px;
+    display: flex;
+    border-radius: 24px;
+    gap: 32px;
+}
+
+.card-2{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 48px;
+    display: flex;
+    border-radius: 24px;
+    gap: 32px;
+
+}
+
+.card-image{
+    border-radius: 24px;
+}
+
+.card-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}
+.time-and-date{
+    margin-right: 12px;
+}
+.card-read-more-button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    padding: 13px 26px 13px 26px;
+}
+
+/* donate part */
+.donate{
+    text-align: center;
+}
+.donate-four{
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: center;
+    gap: 24px;
+}
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+    
+}
+.donate-description{
+    width: 1500px;
+}
+.donate-money{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 16px;
+    width: 270px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-money:hover {
+    background-color: #d9f0e3; 
+    cursor: pointer;
+}
+.donate-other-amount{
+    height: 64px;
+    width: 92%;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    margin-bottom: 32px;
+}
+.donate-now-button{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
 }
